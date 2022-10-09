@@ -1,7 +1,7 @@
 
 <template>
 <div>
-    <div class="bg-emerald-300 w-full h-full">
+    <div class="backgroundimage w-full h-full">
     <div class="grid place-items-center h-screen">
     <div class="w-[40rem] h-[20rem] bg-[#2b2b2b] rounded-md">
         <div>
@@ -36,3 +36,14 @@ export default {
   }
 }
 </script>
+
+
+<style scoped>
+.backgroundimage {
+  background-image: url('../assets/bg-ground.webp');
+  position: relative;
+  background-size: cover;
+  color: black;
+  overflow: hidden;
+}
+</style>
