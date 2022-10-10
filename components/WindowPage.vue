@@ -46,4 +46,8 @@ export default {
   color: black;
   overflow: hidden;
 }
+
+@media all and (max-device-width: 480px)
+
+
 </style>
