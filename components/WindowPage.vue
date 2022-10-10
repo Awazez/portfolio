@@ -47,7 +47,7 @@ export default {
   overflow: hidden;
 }
 
-@media all and (max-device-width: 480px)
+
 
 
 </style>
