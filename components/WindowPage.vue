@@ -16,10 +16,10 @@
             <span class="text-[#2ec8c7]">console</span>.<span class="text-[#9cbc53]">log</span>(<span class="text-[#e6d321]">greeting</span>); <br>
             <span class="text-[#a7a792]">// I'm a french web developer. </span> <br>
             <span class="text-[#c3856b]">const</span> <span class="text-[#e6d321]"> contact</span> = {  <br>
-            <span class="text-[#2ec8c7]">{ email :</span> <span class="text-[#e6d321]"> </span>  <a href="">martin.aubeut@gmail.com</a> <span class="text-[#2ec8c7]">}</span>,  <br>
-            <span class="text-[#2ec8c7]">{ linkedin :</span> <span class="text-[#e6d321]"> </span>  <a href="https://www.linkedin.com/in/martin-aubeut-30452010b/">https://www.linkedin.com/in/martin-aubeut-30452010b/</a> <span class="text-[#2ec8c7]">}</span>,  <br>
-            <span class="text-[#2ec8c7]">{ github :</span> <span class="text-[#e6d321]"> </span>  <a href="https://github.com/Awazez/">https://github.com/Awazez/</a> <span class="text-[#2ec8c7]">}</span>,  <br>
-            <span class="text-[#2ec8c7]">{ twitter :</span> <span class="text-[#e6d321]"> </span>  <a href="https://twitter.com/AwwAzez">https://twitter.com/AwwAzez</a> <span class="text-[#2ec8c7]">}</span>  <br>
+            <span class="text-[#2ec8c7]">{ email :</span> <span class="text-[#e6d321]"> </span>  <a href="mailto:martin.aubeut@gmail.com" target="_blank">martin.aubeut@gmail.com</a> <span class="text-[#2ec8c7]">}</span>,  <br>
+            <span class="text-[#2ec8c7]">{ linkedin :</span> <span class="text-[#e6d321]"> </span>  <a href="https://www.linkedin.com/in/martin-aubeut-30452010b/" target="_blank">https://www.linkedin.com/in/martin-aubeut-30452010b/</a> <span class="text-[#2ec8c7]">}</span>,  <br>
+            <span class="text-[#2ec8c7]">{ github :</span> <span class="text-[#e6d321]"> </span>  <a href="https://github.com/Awazez/" target="_blank">https://github.com/Awazez/</a> <span class="text-[#2ec8c7]">}</span>,  <br>
+            <span class="text-[#2ec8c7]">{ twitter :</span> <span class="text-[#e6d321]"> </span>  <a href="https://twitter.com/AwwAzez" target="_blank">https://twitter.com/AwwAzez</a> <span class="text-[#2ec8c7]">}</span>  <br>
             }
         </div>
     </div>
