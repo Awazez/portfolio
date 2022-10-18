@@ -30,8 +30,10 @@
 
 <script>
 export default {
-  clickEvent: function(){
-    alert("Hello, world!");
+  methods: {
+    clickEvent: function(){
+    console.log("Hello, world!");
+  }
   },
   name: 'NuxtWindowPage',
     debug (event) {
