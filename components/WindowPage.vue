@@ -3,10 +3,11 @@
 <div>
     <div class="backgroundimage w-full h-full">
     <div class="grid place-items-center h-screen">
-    <div class="w-[20rem] h-[25rem] sm:w-[40rem] sm:h-[20rem] bg-[#2b2b2b] rounded-md">
+    <div v-show="isShow" class="w-[20rem] h-[25rem] sm:w-[40rem] sm:h-[20rem] bg-[#2b2b2b] rounded-md">
         <div>
             <span class="w-0.5 h-0.5 inline-block rounded-full bg-transparent mx-1 my-1 mt-4"> </span>
-            <span @click="clickEvent" class="w-3 h-3 inline-block rounded-full bg-[#fd5f57] mx-0.5 my-1 mt-3.5"> </span>
+
+            <span @click="isShow = !isShow" class="w-3 h-3 inline-block rounded-full bg-[#fd5f57] mx-0.5 my-1 mt-3.5"> </span>
             <span class="w-3 h-3 inline-block rounded-full bg-[#fbbc33] mx-0.5 my-1 mt-3.5"> </span>
             <span class="w-3 h-3 inline-block rounded-full bg-[#2ac83e] mx-0.5 my-1 mt-3.5"> </span>
         </div>
@@ -30,10 +31,14 @@
 
 <script>
 export default {
-  methods: {
-    clickEvent: function(){
-    console.log("Hello, world!");
-  }
+  name: "ToggleDiv",
+  data: function () {
+    return {
+      isShow: true,
+    };
+  },
+  props: {
+    msg: String,
   },
   name: 'NuxtWindowPage',
     debug (event) {
@@ -53,7 +58,9 @@ export default {
   overflow: hidden;
 }
 
-
+.button  {
+  display: v-bind('displayNone');
+}
 
 
 </style>
