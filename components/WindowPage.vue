@@ -6,6 +6,7 @@
     <div v-show="isShow" class="w-[20rem] h-[25rem] sm:w-[40rem] sm:h-[20rem] bg-[#2b2b2b] rounded-md">
         <div>
             <span class="w-0.5 h-0.5 inline-block rounded-full bg-transparent mx-1 my-1 mt-4"> </span>
+
             <span @click="isShow = !isShow" class="w-3 h-3 inline-block rounded-full bg-[#fd5f57] mx-0.5 my-1 mt-3.5"> </span>
             <span class="w-3 h-3 inline-block rounded-full bg-[#fbbc33] mx-0.5 my-1 mt-3.5"> </span>
             <span class="w-3 h-3 inline-block rounded-full bg-[#2ac83e] mx-0.5 my-1 mt-3.5"> </span>
